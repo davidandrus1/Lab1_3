@@ -9,7 +9,6 @@ public class Divide {
             result[i] = localDigit / digit;
             remainder = localDigit % digit;
         }
-
         return result;
     }
 }

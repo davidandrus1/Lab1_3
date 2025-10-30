@@ -10,7 +10,11 @@ public class Sum {
                 carry = localSum / 10;
 
             }
-            result[0] = carry;
+
+            if(carry > 0){
+                result[0] = carry;
+            }
+
             return result;
     }
 }
